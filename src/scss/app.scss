@@ -1,0 +1,21 @@
+@import "../assets/fonts/_fonts.scss";
+
+body {
+    background: url(https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg);
+    margin: 0;
+    background-size: cover;
+
+}
+::-webkit-scrollbar{
+width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #CCCCFF 0%, #708ad4 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color:/*#B0C4DE*/#F0F8FF;
+      }
+    

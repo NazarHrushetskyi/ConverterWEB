@@ -1,0 +1,68 @@
+.content {
+    padding: 0px 35px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bttn{
+    display: flex;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.convert_block {
+    text-align: center;
+  }
+  .convert_title {
+    font-family: 'Roboto';
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .convert_input {
+    width: 290px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    height: 56px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 12%);
+    align-items: center;
+    padding: 0 16px 0 16px;
+    :focus {
+      border: 0.5px solid #dfecff;
+    }
+  }
+.res_info{
+margin-top:35px;
+}
+.res_info2{
+  margin-top:45px;
+  }
+.result_block {
+  display: flex;
+  flex-direction: flex-end;
+}
+.head1{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  color: #717F92;
+}
+.head2{
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 30px;
+}
+.head3{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #717F92;
+}

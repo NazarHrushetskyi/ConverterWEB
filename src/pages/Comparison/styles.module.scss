@@ -1,0 +1,24 @@
+.content {
+    padding: 0px 35px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.item {
+    width: 30%;
+    height: 40px;
+    margin: 5px 10px 5px 25px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #AFDBF5;     
+    cursor: pointer;
+}
